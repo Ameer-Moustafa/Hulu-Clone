@@ -6,3 +6,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Making sure every image maintains it's aspect ratio and takes the full size of it's container */
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* Applying universal style to our page element, this applies as my page's body */
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
