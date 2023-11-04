@@ -153,26 +153,59 @@
 
 /* Library styles */
 
-.library-container {
-  padding: 4rem;
+.library-container-parent {
   align-items: center;
   background-color: var(--primary-background);
   text-align: center;
+  gap: 2rem;
 }
 
-.library-heading-container > span {
-  color: var(--primary-green);
-}
-
-.library-container h1 {
+.library-container-parent p {
   color: var(--primary-white);
 }
 
-.library-container p {
+.library-container-parent h1 {
   color: var(--primary-white);
 }
 
 .library-heading-container {
   align-items: center;
   justify-content: center;
+}
+
+.library-heading-container > span:first-child {
+  color: var(--primary-green);
+}
+
+.billboards-container > span:first-child {
+  color: var(--primary-green);
+}
+
+.library-card-container {
+  gap: 2%;
+}
+
+.library-card {
+  border-radius: 10px;
+  width: 15vw;
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tv-shows {
+  background-image: url("../Assets/Images/Cards/family-guy.png");
+}
+
+.movies {
+  background-image: url("../Assets/Images/Cards/prey.jpeg");
+}
+
+.hulu-originals {
+  background-image: url("../Assets/Images/Cards/only-murders.png");
+}
+
+.premiums {
+  background-image: url("../Assets/Images/Cards/sopranos.png");
 }
