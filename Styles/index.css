@@ -46,7 +46,7 @@
 .hero-content-container {
   font-family: "Roboto", sans-serif;
   align-items: center;
-  gap: 0.9rem;
+  gap: 2rem;
 }
 
 /* Bundle styles */
@@ -71,7 +71,7 @@
 
 .bundle > p {
   text-align: center;
-  line-height: 1.24;
+  line-height: 1.2;
   font-size: 1.6rem;
   font-weight: 500;
   color: white;
@@ -127,15 +127,32 @@
 .CTA {
   background: linear-gradient(180deg, #29a869 0.66%, #16181d 99.34%);
   font-family: "Roboto", sans-serif;
-  padding: 3rem;
+  padding: 2rem;
   align-items: center;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 .CTA > h2 {
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
 }
 
 .CTA > button {
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.9rem 5rem;
+  border: 2px solid white;
+  background-color: transparent;
+  letter-spacing: 0.1rem;
+  border-radius: 3px;
+  transition: 0.1s ease-out;
+}
+
+.CTA > button:hover {
+  color: black;
+  background-color: #a4b5ae;
+  border-color: #a4b5ae;
 }
