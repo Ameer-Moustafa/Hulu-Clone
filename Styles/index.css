@@ -26,7 +26,7 @@
 }
 
 .navbar-login {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   border-radius: 10px;
@@ -54,8 +54,6 @@
 .bundle-container {
   width: 90%;
   justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
 }
 
 .bundle {
@@ -95,18 +93,26 @@
 }
 
 .bundle > img {
-  width: 65%;
+  width: 51%;
+}
+
+.duo-bundle {
+  margin-right: -5%;
+}
+
+.trio-bundle {
+  margin-left: -5%;
 }
 
 .duo-bundle > img {
-  width: 50%;
+  width: 40%;
 }
 
 /* Signup styles */
 
 .hero-signup-container {
   text-align: center;
-  gap: 1.9rem;
+  gap: 2rem;
   color: white;
   text-decoration: underline;
 }
@@ -114,4 +120,22 @@
 .hero-terms {
   color: inherit;
   font-size: 0.9rem;
+}
+
+/* Plan Subheader styles */
+
+.CTA {
+  background: linear-gradient(180deg, #29a869 0.66%, #16181d 99.34%);
+  font-family: "Roboto", sans-serif;
+  padding: 3rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.CTA > h2 {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.CTA > button {
 }
