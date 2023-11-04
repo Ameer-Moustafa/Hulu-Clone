@@ -33,7 +33,6 @@
   color: #a8afbd;
   background-color: transparent;
   padding: 0.8rem;
-  transition: 0.2s ease-in;
 }
 
 .navbar-login:hover {
@@ -78,14 +77,12 @@
 }
 
 .bundle > button {
-  cursor: pointer;
   width: 60%;
   font-size: 1rem;
   border-radius: 5px;
   padding: 0.7rem 0rem;
   background-color: #00ed82;
   font-weight: 700;
-  transition: 0.2s ease-in;
 }
 
 .bundle > button:hover {
@@ -139,6 +136,11 @@
   letter-spacing: 0.6px;
 }
 
+.CTA a {
+  text-decoration: unset;
+  color: inherit;
+}
+
 .CTA > button {
   color: white;
   font-weight: 700;
@@ -148,7 +150,6 @@
   background-color: transparent;
   letter-spacing: 0.1rem;
   border-radius: 3px;
-  transition: 0.1s ease-out;
 }
 
 .CTA > button:hover {

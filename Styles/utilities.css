@@ -29,3 +29,15 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+/* Universal button transitions */
+
+button {
+  transition: 0.2s ease-in;
+}
+
+/* Universal button hover effects */
+
+button:hover {
+  cursor: pointer;
+}
