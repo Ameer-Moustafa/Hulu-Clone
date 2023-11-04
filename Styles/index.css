@@ -7,37 +7,115 @@
   gap: 10rem;
   background-image: url("../Assets/Images/Backgrounds/hero-bg.jpeg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Navbar */
 
 .navbar {
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .navbar-logo {
-  width: 3%;
+  width: 3.5%;
 }
 
 .navbar-login {
-  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  color: #a8afbd;
+  background-color: transparent;
+  padding: 0.8rem;
+  transition: 0.4s ease-in;
 }
 
-.bundle-container {
-  width: 80%;
-  align-self: center;
-  display: flex;
-  gap: 20rem;
+.navbar-login:hover {
+  background-color: #323843;
+  color: #ffffff;
 }
 
-.bundle {
+.hero-content-container {
+  font-family: "Roboto", sans-serif;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.9rem;
+}
+
+.bundle-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.bundle {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.bundle > span {
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: #00ed82;
+  font-weight: 700;
+}
+
+.bundle > p {
+  text-align: center;
+  line-height: 1.24;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+}
+
+.bundle > button {
+  width: 70%;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.7rem 0rem;
+  background-color: #00ed82;
+  font-weight: 700;
+  transition: 0.2s ease-in;
+}
+
+.bundle > button:hover {
+  opacity: 0.7;
+}
+
+.bundle img {
+  width: 65%;
+}
+
+.duo-bundle img {
+  width: 50%;
+}
+
+.hero-signup-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.9rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.hero-terms {
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.hero-signup {
+  color: inherit;
 }
