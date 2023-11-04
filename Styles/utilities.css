@@ -2,6 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
+/* CSS Color variables */
+
+:root {
+  --primary-green: #00ed82;
+  --primary-white: #ffffff;
+  --primary-background: #0b0c0f;
+}
+
 /* CSS Reset */
 
 * {
@@ -33,7 +41,7 @@ img {
 /* Universal button transitions */
 
 button {
-  transition: 0.2s ease-in;
+  transition: 0.1s ease-out;
 }
 
 /* Universal button hover effects */
