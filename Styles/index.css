@@ -1,9 +1,6 @@
-/* Hero section */
+/* Hero section Parent container */
 
 .hero-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   gap: 10rem;
   background-image: url("../Assets/Images/Backgrounds/hero-bg.jpeg");
   background-position: center;
@@ -14,9 +11,7 @@
 /* Navbar */
 
 .navbar {
-  width: 100%;
   padding: 1rem 3rem;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -40,27 +35,25 @@
   color: #ffffff;
 }
 
+/* Hero content container */
+
 .hero-content-container {
   font-family: "Roboto", sans-serif;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 0.9rem;
 }
 
+/* Bundle styles */
+
 .bundle-container {
   width: 90%;
-  display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
 }
 
 .bundle {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
+  width: 30%;
   align-items: center;
   gap: 1.3rem;
 }
@@ -81,7 +74,7 @@
 }
 
 .bundle > button {
-  width: 70%;
+  width: 60%;
   font-size: 1rem;
   border-radius: 5px;
   padding: 0.7rem 0rem;
@@ -102,9 +95,9 @@
   width: 50%;
 }
 
+/* Signup styles */
+
 .hero-signup-container {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   gap: 1.9rem;
   color: white;
