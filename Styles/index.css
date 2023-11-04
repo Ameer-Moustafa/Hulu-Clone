@@ -9,11 +9,6 @@
   padding-bottom: 7rem;
 }
 
-.hero-container a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* Navbar */
 
 .navbar {
@@ -115,17 +110,16 @@
 }
 
 .hero-terms {
-  color: inherit;
   font-size: 0.9rem;
 }
 
-/* Plan Subheader styles */
+/* CTA styles */
 
 .CTA {
   background: linear-gradient(
     180deg,
     var(--primary-green) 0.66%,
-    #16181d 99.34%
+    var(--primary-background) 99.34%
   );
   font-family: "Roboto", sans-serif;
   padding: 2rem;
@@ -135,14 +129,9 @@
 
 .CTA > h2 {
   color: var(--primary-white);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.6px;
-}
-
-.CTA a {
-  text-decoration: unset;
-  color: inherit;
 }
 
 .CTA > button {
@@ -157,7 +146,33 @@
 }
 
 .CTA > button:hover {
-  color: black;
+  color: var(--primary-background);
   background-color: #a4b5ae;
   border-color: #a4b5ae;
+}
+
+/* Library styles */
+
+.library-container {
+  padding: 4rem;
+  align-items: center;
+  background-color: var(--primary-background);
+  text-align: center;
+}
+
+.library-heading-container > span {
+  color: var(--primary-green);
+}
+
+.library-container h1 {
+  color: var(--primary-white);
+}
+
+.library-container p {
+  color: var(--primary-white);
+}
+
+.library-heading-container {
+  align-items: center;
+  justify-content: center;
 }
