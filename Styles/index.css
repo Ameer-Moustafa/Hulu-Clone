@@ -3,9 +3,15 @@
 .hero-container {
   gap: 10rem;
   background-image: url("../Assets/Images/Backgrounds/hero-bg.jpeg");
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 7rem;
+}
+
+.hero-container a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Navbar */
@@ -74,6 +80,7 @@
 }
 
 .bundle > button {
+  cursor: pointer;
   width: 60%;
   font-size: 1rem;
   border-radius: 5px;
@@ -87,11 +94,11 @@
   opacity: 0.7;
 }
 
-.bundle img {
+.bundle > img {
   width: 65%;
 }
 
-.duo-bundle img {
+.duo-bundle > img {
   width: 50%;
 }
 
@@ -107,8 +114,4 @@
 .hero-terms {
   color: inherit;
   font-size: 0.9rem;
-}
-
-.hero-signup {
-  color: inherit;
 }
