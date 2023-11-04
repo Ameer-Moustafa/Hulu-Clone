@@ -263,7 +263,7 @@
   border-radius: 5px;
   color: var(--primary-background);
   background-color: var(--primary-green);
-  padding: 1rem;
+  padding: 1rem 1.2rem;
 }
 
 .billboards-container button:hover {
