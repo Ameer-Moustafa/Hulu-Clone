@@ -38,7 +38,6 @@
 /* Hero content container */
 
 .hero-content-container {
-  font-family: "Roboto", sans-serif;
   align-items: center;
   gap: 2rem;
 }
@@ -161,37 +160,72 @@
 }
 
 .library-container-parent p {
+  font-size: 1.2rem;
   color: var(--primary-white);
 }
 
 .library-container-parent h1 {
+  font-size: 3rem;
   color: var(--primary-white);
 }
 
 .library-heading-container {
+  gap: 1rem;
+  margin-top: 4rem;
   align-items: center;
   justify-content: center;
 }
 
 .library-heading-container > span:first-child {
+  letter-spacing: 0.6px;
   color: var(--primary-green);
+  font-weight: 700;
 }
 
 .billboards-container > span:first-child {
+  letter-spacing: 0.6px;
   color: var(--primary-green);
+  font-weight: 700;
 }
 
 .library-card-container {
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2%;
 }
 
 .library-card {
+  cursor: pointer;
+  color: var(--primary-white);
+  padding: 1rem;
+  text-align: left;
+  justify-content: start;
   border-radius: 10px;
   width: 15vw;
   height: 45vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.library-card-border {
+  transition: 0.2s ease-in;
+  padding: 0.3rem;
+  border: 4px solid transparent;
+  border-radius: 15px;
+}
+
+.library-card-border:hover {
+  border-color: grey;
+}
+
+.library-card h2 {
+  font-weight: 700;
+}
+
+.library-card p {
+  font-weight: 500;
 }
 
 .tv-shows {
