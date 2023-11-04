@@ -32,7 +32,7 @@
   color: #a8afbd;
   background-color: transparent;
   padding: 0.8rem;
-  transition: 0.4s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .navbar-login:hover {
