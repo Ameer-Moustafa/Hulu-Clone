@@ -199,10 +199,15 @@
   justify-content: start;
   border-radius: 10px;
   width: 15vw;
-  height: 45vh;
+  height: 43vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.library-card-premium span {
+  font-size: 0.7rem;
+  color: grey;
 }
 
 .library-card-border {
