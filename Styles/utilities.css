@@ -62,3 +62,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Reusable Typography */
+
+/* fineprint typography */
+
+.fineprint {
+  font-size: 0.6rem;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.fineprint > a {
+  text-decoration: underline;
+}
