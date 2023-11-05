@@ -519,22 +519,56 @@
 
 footer {
   background-color: var(--footer-background);
+  align-items: center;
 }
 
 footer h2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--footer-grey-dark);
 }
 
 footer a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--footer-grey-light);
 }
 
 .footer-rows-parent {
-  justify-content: center;
-  gap: 5%;
+  padding: 4rem 21rem;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.browse-container-parent {
+.browse-content-parent {
+  gap: 8rem;
+}
+
+.footer-content-container {
+  gap: 0.7rem;
+}
+
+.footer-content-wrapper {
+  gap: 0.5rem;
+}
+
+.legal-container-parent {
+  padding: 2rem 0rem;
+  gap: 1rem;
+  width: 66%;
+  align-items: start;
+  border-top: 2px solid #d9dce2;
+}
+
+.socials-container {
+  width: 14%;
+  align-items: center;
+  padding: 1rem 0rem;
+  gap: 2rem;
+}
+
+.socials-container > :first-child {
+  width: 50%;
+}
+
+.legal-content {
+  gap: 2rem;
 }
