@@ -187,17 +187,17 @@
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 0.5%;
   padding-bottom: 5rem;
 }
 
 .library-card {
   cursor: pointer;
   color: var(--primary-white);
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: left;
   justify-content: start;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 15vw;
   height: 43vh;
   background-position: center;
@@ -243,6 +243,10 @@
 .billboards-container {
   align-items: center;
   gap: 1.3rem;
+}
+
+.library-card-content span {
+  font-weight: 700;
 }
 
 .billboards-container > span:first-child {
@@ -297,7 +301,7 @@
 
 .spotlight-content-container > p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.32;
 }
 
