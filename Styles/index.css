@@ -123,12 +123,12 @@
   font-family: "Roboto", sans-serif;
   padding: 2rem;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .CTA > h2 {
   color: var(--primary-white);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.6px;
 }
@@ -312,18 +312,18 @@
 }
 
 .spotlight-content-container {
-  gap: 2rem;
+  gap: 4rem;
   width: 70%;
 }
 
-.spotlight-content-container > h2 {
+.spotlight-content-container h2 {
   line-height: 1.25;
   letter-spacing: -0.5px;
   font-size: 3rem;
   font-weight: 700;
 }
 
-.spotlight-content-container > p {
+.spotlight-content-container p {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.32;
@@ -337,10 +337,22 @@
   gap: 2rem;
 }
 
+.spotlight-header a {
+  cursor: pointer;
+}
+
 .spotlight-header > :first-child {
   text-decoration: underline;
   text-underline-offset: 20px;
   text-decoration-thickness: 0.3rem;
+}
+
+.spotlight-header > :not(:first-child) {
+  color: hsla(0, 0%, 100%, 0.4);
+}
+
+.spotlight-content {
+  gap: 1.5rem;
 }
 
 .spotlight-logo-parent {
