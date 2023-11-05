@@ -401,7 +401,52 @@
 }
 
 .plans-pricing-container {
+  justify-content: space-around;
   width: 65%;
+  padding: 2rem 0rem;
   border-top: 1px solid hsla(0, 0%, 78.4%, 0.4);
   border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+}
+
+.plans-selection-container {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.plans-prices {
+  gap: 1rem;
+  justify-content: center;
+  align-items: end;
+}
+
+.pricing {
+  text-align: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pricing button {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem 7.5rem;
+  border-radius: 10px;
+}
+
+.most-popular-pricing {
+  font-size: 0.6rem;
+  background-color: var(--primary-green);
+  border-radius: 15px;
+  padding: 0.6rem 1.1rem;
+}
+
+.pricing-trial-span {
+  font-weight: 700;
+  color: #bec0c2;
+}
+
+.pricing-ads-span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--primary-grey);
 }
