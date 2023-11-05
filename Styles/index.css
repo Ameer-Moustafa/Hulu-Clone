@@ -516,3 +516,7 @@
 .add-on:hover {
   cursor: pointer;
 }
+
+footer {
+  background-color: var(--footer-background);
+}
