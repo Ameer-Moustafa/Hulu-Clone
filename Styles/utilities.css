@@ -13,7 +13,9 @@ body {
 :root {
   --primary-green: #00ed82;
   --primary-white: #ffffff;
+  --primary-grey: #fff;
   --primary-background: #0b0c0f;
+  --hover-grey: grey;
 }
 
 /* CSS Reset */
