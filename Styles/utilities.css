@@ -16,6 +16,8 @@ body {
   --primary-grey: #fff;
   --primary-background: #0b0c0f;
   --hover-grey: grey;
+  --footer-grey-light: #586174;
+  --footer-grey-dark: #272c34;
   --footer-background: #e8eaed;
 }
 

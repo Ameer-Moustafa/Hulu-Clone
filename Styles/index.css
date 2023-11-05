@@ -520,3 +520,21 @@
 footer {
   background-color: var(--footer-background);
 }
+
+footer h2 {
+  font-size: 1rem;
+  color: var(--footer-grey-dark);
+}
+
+footer a {
+  font-size: 0.9rem;
+  color: var(--footer-grey-light);
+}
+
+.footer-rows-parent {
+  justify-content: center;
+  gap: 5%;
+}
+
+.browse-container-parent {
+}
