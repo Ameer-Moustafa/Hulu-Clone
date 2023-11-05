@@ -447,6 +447,33 @@
 
 .pricing-ads-span {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--primary-grey);
+}
+
+.featurelist-container-parent {
+  width: 65%;
+}
+
+.feature {
+  font-size: 0.9rem;
+  padding: 2rem 0rem;
+  justify-content: start;
+  align-items: center;
+  color: var(--primary-grey);
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+}
+
+.feature-row-1 {
+  width: 45%;
+}
+
+.feature-row-2 {
+  width: 35%;
+  justify-content: center;
+  text-align: center;
+}
+
+.checkmark {
+  width: 6%;
 }
