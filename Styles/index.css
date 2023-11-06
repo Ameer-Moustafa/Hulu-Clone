@@ -481,6 +481,8 @@
   color: var(--primary-grey);
 }
 
+/* Feature list Styling */
+
 .featurelist-container-parent {
   width: 65%;
 }
@@ -536,6 +538,7 @@
   cursor: pointer;
 }
 
+/* Footer Styling */
 footer {
   background-color: var(--footer-background);
   align-items: center;
