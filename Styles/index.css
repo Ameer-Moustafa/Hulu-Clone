@@ -414,10 +414,29 @@
 }
 
 .plans-selection-container {
-  align-items: center;
+  margin-top: 4rem;
+  align-items: start;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   flex-grow: 1;
+}
+
+.base-plans {
+  align-items: center;
+  gap: 1rem;
+}
+
+.base-plans img {
+  width: 50%;
+}
+
+.bundle-plans {
+  align-items: center;
+  gap: 1rem;
+}
+
+.bundle-plans img {
+  width: 80%;
 }
 
 .plans-selection-header {
