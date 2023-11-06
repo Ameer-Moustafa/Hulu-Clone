@@ -587,10 +587,6 @@ footer a {
   gap: 2rem;
 }
 
-.socials-container > :first-child {
-  width: 50%;
-}
-
 .legal-content {
   gap: 2rem;
 }
